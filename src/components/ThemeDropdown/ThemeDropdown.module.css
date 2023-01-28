@@ -1,0 +1,20 @@
+.theme_dropdown select {
+  width: 200px;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  box-shadow: 4px 4px 2px #000;
+  cursor: pointer;
+  outline: none;
+  /* border: 1px solid red; */
+  display: inline-block;
+}
+.theme_dropdown select:hover {
+  border: 2px solid #20b559;
+  box-shadow: 4px 4px 2px #20b559;
+}
+.theme_dropdown option {
+  padding: 1rem;
+}
